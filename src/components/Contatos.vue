@@ -5,12 +5,18 @@
     >
       <div>
         <a href="https://www.instagram.com/gdgrioverde/ " target="_blank"><v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          :icon="icon"
-          variant="text"
-          color="white"
+            icon="mdi-instagram"
+            color="white"
+            class="mx-4"
+            variant="text"
+            
+        ></v-btn></a>
+        <a href="https://www.google.com.br/maps/" target="_blank"><v-btn
+            label = "Localização"
+            color="white"
+            class="mx-4"
+            variant="text"
+            
         ></v-btn></a>
       </div>
   
@@ -25,12 +31,5 @@
   </template>
 
 <script lang="ts">
-  export default {
-    data: () => ({
-      icons: [
 
-        'mdi-instagram',
-      ],
-    }),
-  }
 </script>
