@@ -1,107 +1,188 @@
 <template>
-    <div>
-        <h1 position="center">Palestrantes</h1>
-        <v-timeline>
-        <v-timeline-item
-            dot-color="purple-lighten-2"
-            width="80vh"
-            position="center"
-        >
-            <v-card>
-            <v-card-title class="bg-purple-lighten-2">
-                <v-icon
-                size="large"
-                class="me-4"
-                icon="mdi-magnify"
+    <v-card
+      max-width="100%"
+      class="mx-auto"
+    >
+ 
+      <v-container>
+        <v-row>
+  
+          <v-col cols="4">
+            <v-card
+                color="#81c995"
+                theme="dark"
+                cols="12"
+                sm="4"
+            >
+              <div class="">
+                <div> 
+                    <v-avatar
+                    class="ma-3"
+                    size="125"
+                    rounded="0"
+                    >
+                    <v-img src="@/assets/joao.jpg"></v-img>
+                    </v-avatar>
+                </div>
+                <div>
+                  <v-card-title class="text-h5">
+                    Supermodel
+                  </v-card-title>
+  
+                  <v-card-subtitle>Foster the People</v-card-subtitle>
+                </div>
+  
+               
+              </div>
+            </v-card>
+          </v-col>
+  
+          <v-col cols="4">
+            <v-card
+              color="#fde293"
+              theme="dark"
+            >
+              <div >
+                <div>
+                  <v-card-title class="text-h5">
+                    Halcyon Days
+                  </v-card-title>
+  
+                  <v-card-subtitle>Ellie Goulding</v-card-subtitle>
+
+                </div>
+  
+                <v-avatar
+                  class="ma-3"
+                  size="125"
+                  rounded="0"
                 >
-                </v-icon>
-               <label>Title 1</label> 
-            </v-card-title>
-            <v-card-text>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-card-text>
+                  <v-img src="@/assets/logo.png"></v-img>
+                </v-avatar>
+              </div>
             </v-card>
-        </v-timeline-item>
+          </v-col>
+
+          <v-col cols="4">
+            <v-card
+                color="#81c995"
+                theme="dark"
+                cols="12"
+                sm="4"
+            >
+              <div class="">
+                <div> 
+                    <v-avatar
+                    class="ma-3"
+                    size="125"
+                    rounded="0"
+                    >
+                    <v-img src="@/assets/joao.jpg"></v-img>
+                    </v-avatar>
+                </div>
+                <div>
+                  <v-card-title class="text-h5">
+                    Supermodel
+                  </v-card-title>
+  
+                  <v-card-subtitle>Foster the People</v-card-subtitle>
+                </div>
+  
+               
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="4">
+            <v-card
+                color="#81c995"
+                theme="dark"
+                cols="12"
+                sm="4"
+            >
+              <div class="">
+                <div> 
+                    <v-avatar
+                    class="ma-3"
+                    size="125"
+                    rounded="0"
+                    >
+                    <v-img src="@/assets/joao.jpg"></v-img>
+                    </v-avatar>
+                </div>
+                <div>
+                  <v-card-title class="text-h5">
+                    Supermodel
+                  </v-card-title>
+  
+                  <v-card-subtitle>Foster the People</v-card-subtitle>
+                </div>
+  
+               
+              </div>
+            </v-card>
+          </v-col>
+  
+          <v-col cols="4">
+            <v-card
+              color="#fde293"
+              theme="dark"
+            >
+              <div >
+                <div>
+                  <v-card-title class="text-h5">
+                    Halcyon Days
+                  </v-card-title>
+  
+                  <v-card-subtitle>Ellie Goulding</v-card-subtitle>
+
+                </div>
+  
+                <v-avatar
+                  class="ma-3"
+                  size="125"
+                  rounded="0"
+                >
+                  <v-img src="@/assets/logo.png"></v-img>
+                </v-avatar>
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="4">
+            <v-card
+                color="#81c995"
+                theme="dark"
+                cols="12"
+                sm="4"
+            >
+              <div class="">
+                <div> 
+                    <v-avatar
+                    class="ma-3"
+                    size="125"
+                    rounded="0"
+                    >
+                    <v-img src="@/assets/joao.jpg"></v-img>
+                    </v-avatar>
+                </div>
+                <div>
+                  <v-card-title class="text-h5">
+                    Supermodel
+                  </v-card-title>
+  
+                  <v-card-subtitle>Foster the People</v-card-subtitle>
+                </div>
+  
+               
+              </div>
+            </v-card>
+          </v-col>
+       
+        </v-row>
+      </v-container>
+      
+    </v-card>
     
-        <v-timeline-item
-            dot-color="amber-lighten-1"
-            fill-dot
-            width="80vh"
-        >
-            <v-card>
-            <v-card-title class="bg-amber-lighten-1 justify-end">
-                <v-icon
-                size="large"
-                class ="me-4"
-                icon="mdi-home-outline"
-                ></v-icon>
-                <label>Title 2</label> 
-            </v-card-title>
-            <v-card-text>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-card-text>
-            </v-card>
-        </v-timeline-item>
-    
-        <v-timeline-item
-            dot-color="cyan-lighten-1"
-            fill-dot
-            width="80vh"
-        >
-            <v-card>
-            <v-card-title class="bg-cyan-lighten-1">
-                <v-icon
-                class="me-4"
-                size="large"
-                icon="mdi-email-outline"
-                ></v-icon>
-                <label>Title 3</label>
-            </v-card-title>
-            <v-card-text>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-card-text>
-            </v-card>
-        </v-timeline-item>
-    
-        <v-timeline-item
-            dot-color="red-lighten-1"
-            fill-dot
-            width="80vh"
-        >
-            <v-card>
-            <v-card-title class="bg-red-lighten-1 justify-end">
-                <v-icon
-                size="large"
-                icon="mdi-account-multiple-outline"
-                class="me-4"
-                ></v-icon>
-                <label>Title 4</label>
-            </v-card-title>
-            <v-card-text>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-card-text>
-            </v-card>
-        </v-timeline-item>
-    
-        <v-timeline-item
-            dot-color="green-lighten-1"
-            fill-dot
-            width="80vh"
-        >
-            <v-card>
-            <v-card-title class="bg-green-lighten-1">
-                <v-icon
-                class="me-4"
-                size="large"
-                icon="mdi-phone-in-talk"
-                ></v-icon>
-                <label>Title 5</label>
-            </v-card-title>
-            <v-card-text>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-card-text>
-            </v-card>
-        </v-timeline-item>
-        </v-timeline>
-    </div>
   </template>
+

@@ -11,6 +11,7 @@ declare module 'vue' {
     BarraNavegacado: typeof import('./src/components/BarraNavegacado.vue')['default']
     BarraNavegacao: typeof import('./src/components/BarraNavegacao.vue')['default']
     Contatos: typeof import('./src/components/Contatos.vue')['default']
+    copy: typeof import('./src/components/Palestrantes copy.vue')['default']
     Default: typeof import('./src/layouts/default/Default.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HelloWorld2: typeof import('./src/components/HelloWorld2.vue')['default']
@@ -22,6 +23,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Sobre: typeof import('./src/components/Sobre.vue')['default']
+    Trilhas: typeof import('./src/components/Trilhas.vue')['default']
     View: typeof import('./src/layouts/default/View.vue')['default']
   }
 }

@@ -11,10 +11,12 @@
   "dependencies": {
     "@mdi/font": "7.0.96",
     "core-js": "^3.29.0",
+    "info-card": "^1.0.0",
     "pinia": "^2.1.6",
     "roboto-fontface": "*",
     "unplugin-vue-components": "^0.25.2",
     "vue": "^3.2.0",
+    "vue-info-card": "^0.1.4",
     "vue-router": "^4.0.0",
     "vuetify": "^3.0.0",
     "webfontloader": "^1.0.0"

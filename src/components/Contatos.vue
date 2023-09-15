@@ -12,7 +12,7 @@
             
         ></v-btn></a>
         <a href="https://www.google.com.br/maps/" target="_blank"><v-btn
-            label = "Localização"
+            icon="mdi-map-marker"
             color="white"
             class="mx-4"
             variant="text"
